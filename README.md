@@ -1,10 +1,16 @@
 # ITBG_A-tim-shop
 # time 05.2018. - 07.2018.
 # author: ITBG A-tim (Ana, Aleksandar, Branko, Milos, Jelena, Lela ...)
-# 
+#
+#Laptop shop, student application made in the period May - July 2018 as sublimation of acquired knowledge and solving of the task.
+#Responses to logging problems, creating a new user, limited access to pages (user, administrator, non-logged-in person can not access pages), selecting the bundle through the session, increasing the quantity of ordered items, reviewing the data basket and the number of the invoice as well as data changes to deliver the product, delete the contents of the bucket after the expiration of the session time (currently set to 900 seconds). deleting individual items from the basket, deleting the contents of the basket, continuing the purchase, ending the purchase.
+#Administrative order is obtained by checking the checksum, problems with user review, user data change (except password), adding items, ordering orders, cancellation of individual items in the invoice, ordering by user and invoices (invoice is a unique number), confirmation of delivery individual items. Both removing activities from the review of the administrator's order and transfer them to a review by category (delivered or canceled).
+The application's completion schedule is reflected in the separation of user options from the controller, model, view, the introduction of the post method of communication as well as the creation of the hesh function for storing user data, invoices and options (delivered, canceled), creating a financial report (according to users- invoices, total amount with the possibility of defining the period).
+
+
 #Laptop shop, studenska aplikacija izradjena u periodu maj - juli 2018. kao sublimacija stecenog znanja i resavanja zadatka.
 #Reseni su problemi logovanja, formiranja novog korisnika, ogranicenog pristupa stranicama (korisnik, administrator, ne ulogovano lice ne moze pristupiti stranama), izbro i formiranje korpe putem sesije, uvecavanje kolicine narucenih artikala, pregled korpe sa podacima i brojem fakture kao i izmene podataka za dostavu proizvoda, brisanje sadrzaja korpe nakon isteka vremena sesije (trenutno je postavljeno na 900 sekundi). brisanja pojedinacnih artikala iz korpe, brisanja sadrzaja korpe, nastavka kupovine, zavrsetka kupovine. 
 #Administratorski nalog se dobija proverom kontrolne sume, reseni su problemi pregleda korisnika, izmena podataka korisnika (osim password), dodavanje artikala, pregleda porudzbenica, otkazivanje pojedinacnih stavki u fakturi, prikaz porudzbenica po korisniku i fakturi (faktura je jedinstveni broj), potvrdjivanje isporucenosti pojedinacnih artikala. Obe aktivnosti uklanjanju iz pregleda administratorske porudzbenice i prebacuje ih u pregled po kategoriji (isporuceno ili otkazano).
-#nastavak dorade aplikacije se ogleda u razdvajanju korisnickih opcija od administratorskih (controller, model, view), uvodjenje post metode komunikacije kao i izrada hesh funkcije za cuvanje podataka korisnika, faktura i opcija (isporuceno, otkazano), izrada financijskog izvestaja (po korisnicima-fakturama, ukupan iznos sa mogucnoscu definisanja peridoa).
+#nastavak dorade aplikacije se ogleda u razdvajanju korisnickih opcija od administratorskih (controller, model, view), uvodjenje post metode komunikacije kao i izrada hesh funkcije za cuvanje podataka korisnika, faktura i opcija (isporuceno, otkazano), izrada financijskog izvestaja (po korisnicima-fakturama, ukupan iznos sa mogucnoscu definisanja perioda).
 
 #autorsko pravo zadrzava ITBG A-tim (kontakt osoba Branko Vujatovic takinajbolji@gmail.com)
