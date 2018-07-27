@@ -1,7 +1,6 @@
 # ITBG_A-tim-shop
 # time 05.2018. - 07.2018.
-# author: ITBG A-tim (Ana, Aleksandar, Branko, Milos, Jelena, Lela ...)
-#
+# authors: ITBG A-tim (Ana, Aleksandar, Branko, Milos, Jelena, Lela ...)
 #Laptop shop, student application made in the period May - July 2018 as sublimation of acquired knowledge and solving of the task.
 #Responses to logging problems, creating a new user, limited access to pages (user, administrator, non-logged-in person can not access pages), selecting the bundle through the session, increasing the quantity of ordered items, reviewing the data basket and the number of the invoice as well as data changes to deliver the product, delete the contents of the bucket after the expiration of the session time (currently set to 900 seconds). deleting individual items from the basket, deleting the contents of the basket, continuing the purchase, ending the purchase.
 #Administrative order is obtained by checking the checksum, problems with user review, user data change (except password), adding items, ordering orders, cancellation of individual items in the invoice, ordering by user and invoices (invoice is a unique number), confirmation of delivery individual items. Both removing activities from the review of the administrator's order and transfer them to a review by category (delivered or canceled).
